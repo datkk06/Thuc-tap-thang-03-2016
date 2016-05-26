@@ -94,6 +94,7 @@ Tuy nhiên, SSH port forwarding chỉ hoạt động trên giao thức TCP và k
  <li>v Agent forwarding : SSH client có thể làm việc với một SSH agent trên cùng một máy. Sử dụng một đặc trưng gọi là agent forwarding, client cũng có thể liên lạc với các agent trên những máy từ xa. Điều thuận lợi là nó cho phép client trên nhiều máy làm việc với một agent và có thể tránh vấn đề liên quan đến tường lửa.</li>
  </ul>
 <a name="architecture"></a>
+
 ##III. SSH architecture.
 
 ![scr1](http://i.imgur.com/WOA7Lch.png)
@@ -255,3 +256,8 @@ chmod 600 /root/.ssh/id_rsa.pub
 ![scr8](http://i.imgur.com/fSnSuUA.png)
 
 - Quay lại mục session các bạn điền IP server và bấm login nhé.
+
+
+**Nguồn**
+
+VNPRO
